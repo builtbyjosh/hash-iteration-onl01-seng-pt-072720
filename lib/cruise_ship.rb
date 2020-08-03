@@ -9,5 +9,5 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, value|
-    return true if key == suite_a and value.start_with("A")
+    return true if key = suite_a and value.start_with("A")
 end
